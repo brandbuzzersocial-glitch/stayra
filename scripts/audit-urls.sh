@@ -1,32 +1,44 @@
 #!/bin/bash
+# scripts/audit-urls.sh
+# Audits all external asset/image URLs in blog-data.ts to make sure they return 200 OK.
 
-blog_file="src/data/blog-data.ts"
-urls=$(grep -oE "https://[a-zA-Z0-9./?=&_-]+" "$blog_file" | sort -u)
+set -e
 
-echo "Auditing URLs using curl..."
+echo "=== Starting SEO Audit: External Image & Asset URLs ==="
+
+# Extract all http/https URLs from src/data/blog-data.ts
+urls=$(grep -o 'https://[^"]*' src/data/blog-data.ts | sed 's/\\//g' | sort -u)
+
+if [ -z "$urls" ]; then
+    echo "No external URLs found in src/data/blog-data.ts."
+    exit 0
+fi
+
 failed=0
+count=0
 
 for url in $urls; do
-    # Skip any trailing characters like quotes, commas, semicolons
-    url=$(echo "$url" | sed -E 's/[",;>].*//')
+    # Remove trailing query params or punctuation if needed (the regex keeps everything up to ")
+    count=$((count+1))
+    echo -n "[$count] Auditing: $url ... "
 
-    # Check if url contains unsplash, sanity or muscache
-    if [[ "$url" == *"unsplash.com"* || "$url" == *"sanity.io"* || "$url" == *"muscache.com"* ]]; then
-        echo -n "Checking: $url... "
-        status=$(curl -o /dev/null -s -w "%{http_code}" -m 5 "$url")
-        if [ "$status" -eq 200 ] || [ "$status" -eq 301 ] || [ "$status" -eq 302 ]; then
-            echo "✅ $status"
-        else
-            echo "❌ $status"
-            failed=$((failed + 1))
-        fi
+    # Run curl to get the HTTP status code
+    status=$(curl -s -o /dev/null -w "%{http_code}" "$url" || echo "FAILED")
+
+    if [ "$status" = "200" ]; then
+        echo -e "\033[0;32m[200 OK]\033[0m"
+    else
+        echo -e "\033[0;31m[FAILED - Status: $status]\033[0m"
+        failed=$((failed+1))
     fi
 done
 
+echo "=== SEO URL Audit Complete ==="
+echo "Total URLs audited: $count"
 if [ "$failed" -gt 0 ]; then
-    echo "Audit failed! $failed URLs returned non-200 status."
+    echo -e "\033[0;31mWarning: $failed URLs failed the audit!\033[0m"
     exit 1
 else
-    echo "Audit passed! All URLs returned 200 OK."
+    echo -e "\033[0;32mAll URLs are 100% healthy and indexable!\033[0m"
     exit 0
 fi
