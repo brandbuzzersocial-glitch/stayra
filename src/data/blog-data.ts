@@ -12,6 +12,41 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        id: "9",
+        slug: "exclusive-jaipur-activities-luxury-villas",
+        title: "The Ultimate Guide to Offbeat Luxury Experiences in Jaipur",
+        excerpt: "Explore Jaipur's hidden heritage, private culinary tours, and exclusive activities to pair with your luxury villa stay at Stayra.",
+        content: `
+            <p>Jaipur, with its rich tapestry of history and royal grandeur, is a destination that demands to be explored in absolute comfort. While staying in one of <a href="/properties">Stayra's premium properties</a> provides a luxurious sanctuary, the true magic of the Pink City lies in combining your stay with highly curated, exclusive local experiences. Whether you are seeking a private culinary tour, an offbeat adventure, or a hands-on heritage craft workshop, we have compiled the ultimate guide to pairing your villa stay with Jaipur's finest offerings.</p>
+
+            <h2>1. Private Culinary Journeys and Candlelight Dining</h2>
+            <p>One of the greatest benefits of booking a private villa is the direct access to personalized dining. For guests residing at <a href="/properties/choti-haveli">Choti Haveli</a> on Ajmer Road, our dedicated on-call chefs can prepare a grand Rajasthani thali featuring authentic dishes like Dal Baati Churma and fiery Laal Maas. But for an exceptionally romantic evening, let our concierge set up a bespoke candlelight dinner under the stars in your private garden, accompanied by a traditional live folk music performance.</p>
+
+            <figure class="my-8">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop" alt="Bespoke private dining experience in Jaipur" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A curated candlelight dining experience prepared fresh by in-villa chefs.</figcaption>
+            </figure>
+
+            <h2>2. Sunrise Hot Air Ballooning Over the Aravalli Hills</h2>
+            <p>For an offbeat perspective of Rajasthan's dramatic landscapes, take to the skies. A sunrise hot air balloon flight offers breathtaking aerial views of ancient forts, hidden palaces, and pristine water bodies. This experience is particularly convenient for guests staying at <a href="/properties/kankas-house">Kankas House</a> or <a href="/properties/the-kukas-villa">The Kukas Villa</a>, as both properties are nestled in the tranquil, scenic outskirts of Jaipur along the Delhi-Jaipur highway, close to the typical launch sites.</p>
+
+            <figure class="my-8">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop" alt="Sunrise views over Jaipur countryside" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A majestic sunrise view over the peaceful landscapes surrounding Jaipur.</figcaption>
+            </figure>
+
+            <h2>3. Private Block-Printing Workshops with Master Artisans</h2>
+            <p>Rajasthan's hand-block printing is a world-renowned craft. Instead of buying mass-produced souvenirs, Stayra can organize an exclusive, private workshop with master craftsmen in Bagru or Sanganer. Here, you will learn the history of natural vegetable dyes, carve your own wooden block, and hand-stamp your own organic cotton fabric—a beautiful, personalized souvenir that supports <a href="/blogs/sustainable-tourism-rajasthan">sustainable and responsible tourism in Rajasthan</a>.</p>
+
+            <h2>Enhance Your Jaipur Getaway with Stayra</h2>
+            <p>At Stayra, we believe that a true luxury vacation is defined by both the beauty of your private home and the seamlessness of your on-ground experiences. From private chauffeur transfers to curated city itineraries, our local team ensures that every detail of your stay is effortlessly managed. Browse our full portfolio of <a href="/properties">villas in Jaipur</a> and contact our concierge today on WhatsApp to begin planning your bespoke royal holiday.</p>
+        `,
+        date: "July 20, 2026",
+        author: "Stayra Team",
+        image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000&auto=format&fit=crop",
+        tags: ["Jaipur Luxury", "Offbeat Travel", "Stayra Villas", "Rajasthan Heritage"]
+    },
+    {
         id: "8",
         slug: "ultimate-3-day-jaipur-luxury-itinerary",
         title: "The Ultimate 3-Day Jaipur Luxury Itinerary: Heritage, Dining, and Private Villas",
@@ -108,7 +143,7 @@ export const blogPosts: BlogPost[] = [
             <p>Unlike standard hotels, farm stays offer an immersive experience. Imagine waking up to the sound of birds, breathing in fresh, pollution-free air, and enjoying meals made from organic produce grown right on the property. It's a chance to reconnect with nature and yourself.</p>
 
             <h2>Experience The Kukas Villa</h2>
-            <p>Located just a short drive from Jaipur, The Kukas Villa is a prime example of a luxurious farm stay experience. Surrounded by the Aravalli hills, it offers vast open spaces, private pools, and lush gardens. Whether you're planning a family reunion or a quiet retreat, the villa provides the perfect backdrop.</p>
+            <p>Located just a short drive from Jaipur, <a href="/properties/the-kukas-villa">The Kukas Villa</a> is a prime example of a luxurious farm stay experience. Surrounded by the Aravalli hills, it offers vast open spaces, private pools, and lush gardens. Whether you're planning a family reunion or a quiet retreat, the villa provides the perfect backdrop.</p>
 
             <figure class="my-8">
                 <img src="https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6MTQ5MjYxMzMxNDkxMzQzNjUxOA==/original/9276b2bf-52b6-43a2-8b40-b617c5347176.jpeg" alt="Serene Farm Stay surrounding Aravalli Hills" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
@@ -143,7 +178,7 @@ export const blogPosts: BlogPost[] = [
             <p>Rajasthan is synonymous with royalty, and there's no better way to experience it than by staying in a heritage home. These properties, often centuries old, have been lovingly restored to offer modern amenities while preserving their historical charm.</p>
 
             <h2>Chotti Haveli: A Hidden Gem</h2>
-            <p>In Emaar Greens on Ajmer Road lies Chotti Haveli, a boutique heritage property that captures the essence of traditional Rajasthani architecture. With its intricate carvings, open courtyards, and antique furnishings, staying here is like living in a living museum.</p>
+            <p>In Emaar Greens on Ajmer Road lies <a href="/properties/choti-haveli">Chotti Haveli</a>, a boutique heritage property that captures the essence of traditional Rajasthani architecture. With its intricate carvings, open courtyards, and antique furnishings, staying here is like living in a living museum.</p>
 
             <figure class="my-8">
                 <img src="https://cdn.sanity.io/images/1tjvajrl/production/4a15031cde0ade6baf548dd99ea779b1c33f992d-1279x960.heif" alt="Chotti Haveli Courtyard and Architectural Features" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
@@ -190,7 +225,7 @@ export const blogPosts: BlogPost[] = [
             <p>Winter in Jaipur is packed with cultural events, including the famous Jaipur Literature Festival and the kite festival (Makar Sankranti). These events bring the city to life and offer a deep dive into Rajasthani culture.</p>
 
             <h2>Bonfire Nights</h2>
-            <p>Evenings can get chilly, which is the perfect excuse to enjoy a bonfire at your stay. Properties like The Kukas Villa offer excellent outdoor settings for cozy winter nights with family and friends.</p>
+            <p>Evenings can get chilly, which is the perfect excuse to enjoy a bonfire at your stay. Properties like <a href="/properties/the-kukas-villa">The Kukas Villa</a> offer excellent outdoor settings for cozy winter nights with family and friends.</p>
 
             <figure class="my-8">
                 <img src="https://images.unsplash.com/photo-1510312305653-8ed496efae75?q=80&w=2000&auto=format&fit=crop" alt="Cozy outdoor bonfire night" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
@@ -289,7 +324,7 @@ export const blogPosts: BlogPost[] = [
             </figure>
 
             <h2>Diverse Experiences</h2>
-            <p>Whether you want to explore historical forts, shop for jewelry, or simply relax at a luxury villa like The Kukas Villa, Jaipur has something for everyone. It's a city that effortlessly blends the old with the new.</p>
+            <p>Whether you want to explore historical forts, shop for jewelry, or simply relax at a luxury villa like <a href="/properties/the-kukas-villa">The Kukas Villa</a>, Jaipur has something for everyone. It's a city that effortlessly blends the old with the new.</p>
 
             <h2>Stayra's Unique Offerings</h2>
             <p>At Stayra, we offer curated experiences that go beyond standard accommodation. From heritage homes to farm stays, our properties are designed to provide a home away from home.</p>
