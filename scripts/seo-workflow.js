@@ -104,44 +104,44 @@ fs.writeFileSync(blogFilePath, blogFileContent, 'utf8');
 // 3. Collateral & Blog Automation: Programmatically draft 1 high-intent blog post daily
 console.log("\n--- [Blog Automation] Drafting New High-Intent Blog Post ---");
 
-const newPostSlug = "exclusive-jaipur-activities-luxury-villas";
-const newPostTitle = "The Ultimate Guide to Offbeat Luxury Experiences in Jaipur";
-const newPostExcerpt = "Explore Jaipur's hidden heritage, private culinary tours, and exclusive activities to pair with your luxury villa stay at Stayra.";
+const newPostSlug = "luxury-monsoon-travel-jaipur";
+const newPostTitle = "The Magic of Monsoon in Jaipur: A Luxury Villa Travel Guide";
+const newPostExcerpt = "Experience the Pink City's spectacular monsoon season in absolute style. Discover green landscapes, historic fort views, and Stayra's luxury private villas.";
 
 const newBlogPostBlock = `    {
-        id: "9",
+        id: "10",
         slug: "${newPostSlug}",
         title: "${newPostTitle}",
         excerpt: "${newPostExcerpt}",
         content: \`
-            <p>Jaipur, with its rich tapestry of history and royal grandeur, is a destination that demands to be explored in absolute comfort. While staying in one of <a href="/properties">Stayra's premium properties</a> provides a luxurious sanctuary, the true magic of the Pink City lies in combining your stay with highly curated, exclusive local experiences. Whether you are seeking a private culinary tour, an offbeat adventure, or a hands-on heritage craft workshop, we have compiled the ultimate guide to pairing your villa stay with Jaipur's finest offerings.</p>
+            <p>Monsoon season in Jaipur (spanning July to September) transforms the historically arid desert landscapes of Rajasthan into lush, vibrant green paradises. While many travelers associate the Pink City with winter sunshine, the rain brings a refreshing cooler climate, mist-shrouded Aravalli hills, and a dramatic romance that is best experienced from the comfort of a private retreat. Discover how to plan the perfect rainy season getaway at <a href="/properties">Stayra's premium properties</a>.</p>
 
-            <h2>1. Private Culinary Journeys and Candlelight Dining</h2>
-            <p>One of the greatest benefits of booking a private villa is the direct access to personalized dining. For guests residing at <a href="/properties/choti-haveli">Choti Haveli</a> on Ajmer Road, our dedicated on-call chefs can prepare a grand Rajasthani thali featuring authentic dishes like Dal Baati Churma and fiery Laal Maas. But for an exceptionally romantic evening, let our concierge set up a bespoke candlelight dinner under the stars in your private garden, accompanied by a traditional live folk music performance.</p>
-
-            <figure class="my-8">
-                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop" alt="Bespoke private dining experience in Jaipur" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
-                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A curated candlelight dining experience prepared fresh by in-villa chefs.</figcaption>
-            </figure>
-
-            <h2>2. Sunrise Hot Air Ballooning Over the Aravalli Hills</h2>
-            <p>For an offbeat perspective of Rajasthan's dramatic landscapes, take to the skies. A sunrise hot air balloon flight offers breathtaking aerial views of ancient forts, hidden palaces, and pristine water bodies. This experience is particularly convenient for guests staying at <a href="/properties/kankas-house">Kankas House</a> or <a href="/properties/the-kukas-villa">The Kukas Villa</a>, as both properties are nestled in the tranquil, scenic outskirts of Jaipur along the Delhi-Jaipur highway, close to the typical launch sites.</p>
+            <h2>1. Cozy Rain Watching and Scenic Views</h2>
+            <p>During the monsoon, there is nothing quite like relaxing with a cup of hot masala chai while watching the rain patter against wide glass windows. For guests staying at <a href="/properties/kankas-house">Kankas House</a>, the experience is unmatched. Located in the peaceful hills, this expansive luxury villa features large terraces and balconies that overlook the mist-kissed forest, offering a serene sanctuary to enjoy the monsoon breeze.</p>
 
             <figure class="my-8">
-                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop" alt="Sunrise views over Jaipur countryside" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
-                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A majestic sunrise view over the peaceful landscapes surrounding Jaipur.</figcaption>
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=2000&auto=format&fit=crop" alt="Premium luxury villa stay during monsoon" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">Relax and unwind in the expansive outdoor areas of our premium private villas.</figcaption>
             </figure>
 
-            <h2>3. Private Block-Printing Workshops with Master Artisans</h2>
-            <p>Rajasthan's hand-block printing is a world-renowned craft. Instead of buying mass-produced souvenirs, Stayra can organize an exclusive, private workshop with master craftsmen in Bagru or Sanganer. Here, you will learn the history of natural vegetable dyes, carve your own wooden block, and hand-stamp your own organic cotton fabric—a beautiful, personalized souvenir that supports <a href="/blogs/sustainable-tourism-rajasthan">sustainable and responsible tourism in Rajasthan</a>.</p>
+            <h2>2. Indulging in Savory Rajasthani Delicacies</h2>
+            <p>Monsoon and deep-fried delicacies go hand-in-hand in India. In Jaipur, the rainy season is synonymous with fresh, piping-hot pyaz kachoris and sweet Ghevar. Guests at <a href="/properties/choti-haveli">Choti Haveli</a> can have our private on-call chef prepare these traditional treats fresh in the villa's kitchen, using authentic local recipes that represent the finest of <a href="/blogs/jaipur-food-guide">Jaipur's rich culinary heritage</a>.</p>
 
-            <h2>Enhance Your Jaipur Getaway with Stayra</h2>
-            <p>At Stayra, we believe that a true luxury vacation is defined by both the beauty of your private home and the seamlessness of your on-ground experiences. From private chauffeur transfers to curated city itineraries, our local team ensures that every detail of your stay is effortlessly managed. Browse our full portfolio of <a href="/properties">villas in Jaipur</a> and contact our concierge today on WhatsApp to begin planning your bespoke royal holiday.</p>
+            <figure class="my-8">
+                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop" alt="Private indoor and garden dining experience" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">Bespoke private dining arranged fresh for guests at our heritage properties.</figcaption>
+            </figure>
+
+            <h2>3. Exploring Historic Forts Amidst the Mist</h2>
+            <p>Monsoon is the most scenic time to explore Jaipur's historic forts. The Amber Fort, Jaigarh, and Nahargarh Fort look majestic when surrounded by low-hanging rain clouds. After a day of sightseeing, return to <a href="/properties/the-kukas-villa">The Kukas Villa</a> for a warm, comforting soak, or sit by the lawn as the cool monsoon evening sets in.</p>
+
+            <h2>Experience Monsoon Magic with Stayra</h2>
+            <p>Why choose a cramped hotel room when you can have a spacious, private home? As explained in our guide comparing <a href="/blogs/villa-vs-hotel-jaipur">villas vs hotels in Jaipur</a>, a private villa gives you unmatched privacy, space, and personalized hospitality. Treat yourself to a magical monsoon escape. Browse our portfolio of <a href="/properties">luxury villas in Jaipur</a> and contact the Stayra Team on WhatsApp to secure your booking today.</p>
         \`,
         date: "${currentDateStr}",
         author: "Stayra Team",
         image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000&auto=format&fit=crop",
-        tags: ["Jaipur Luxury", "Offbeat Travel", "Stayra Villas", "Rajasthan Heritage"]
+        tags: ["Jaipur Luxury", "Monsoon Travel", "Stayra Villas", "Rajasthan Heritage"]
     },`;
 
 let newBlogAdded = false;
