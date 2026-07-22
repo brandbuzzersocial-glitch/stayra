@@ -1,0 +1,20 @@
+
+> stayra@0.1.0 start
+> next start
+
+▲ Next.js 16.1.3
+- Local:         http://localhost:3000
+- Network:       http://192.168.0.2:3000
+
+✓ Starting...
+✓ Ready in 742ms
+[31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: http://localhost:3000/api/auth/session?nextauth=session. Read more at https://errors.authjs.dev#untrustedhost
+    at /app/.next/server/edge/chunks/_ee7e1c6c._.js:419:52224
+    at aS (/app/.next/server/edge/chunks/_ee7e1c6c._.js:419:54889)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async eT.do (/app/.next/server/edge/chunks/_ee7e1c6c._.js:16:13629)
+[31m[auth][error][0m UntrustedHost: Host must be trusted. URL was: http://localhost:3000/api/auth/session?nextauth=session. Read more at https://errors.authjs.dev#untrustedhost
+    at /app/.next/server/edge/chunks/_ee7e1c6c._.js:419:52224
+    at aS (/app/.next/server/edge/chunks/_ee7e1c6c._.js:419:54889)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async eT.do (/app/.next/server/edge/chunks/_ee7e1c6c._.js:16:13629)
