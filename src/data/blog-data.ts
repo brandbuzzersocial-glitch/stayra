@@ -12,6 +12,36 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
+        id: "10",
+        slug: "luxury-pool-villas-jaipur-group-stays",
+        title: "The Best Luxury Pool Villas in Jaipur for Family & Group Getaways",
+        excerpt: "Discover the finest luxury pool villas in Jaipur. Experience private swimming pools, gorgeous design, and impeccable service at Stayra.",
+        content: `
+            <p>When traveling as a large family or a group of close friends, finding accommodation that balances shared luxury with private space can be a challenge. Standard luxury hotels often separate groups into distant hotel rooms, diluting the joy of being together. This is where <a href="/properties">Stayra's premium villas in Jaipur</a> truly shine. Offering expansive private estates with their own private swimming pools, gorgeous regional design, and personal chef-led kitchens, here is why a luxury pool villa is the ultimate choice for your next group holiday.</p>
+
+            <h2>1. The Joy of Having Your Own Private Oasis</h2>
+            <p>Imagine relaxing under a clear Rajasthan sky, cold drink in hand, without a single stranger in sight. In a Stayra villa, the entire pool area and manicured gardens are reserved exclusively for your party. At <a href="/properties/kankas-house">Kankas House</a>, nestled beautifully amidst the quiet forested hills of Bagwara, your group can enjoy a pristine 10x20 ft private pool. Whether it's morning yoga on the wet grass or a late-night midnight dip, there are no hotel schedules or crowded lounges to navigate.</p>
+
+            <figure class="my-8">
+                <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2000&auto=format&fit=crop" alt="Stunning luxury villa pool and loungers" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A stunning private swimming pool sanctuary, exclusive to your group.</figcaption>
+            </figure>
+
+            <h2>2. Curated Group Dining Prepared Fresh Daily</h2>
+            <p>A major highlight of staying in a private pool villa is the personalized dining experience. Rather than ordering from generic room service menus, your group has a dedicated in-villa culinary team. From a hearty farm-fresh breakfast by the pool at <a href="/properties/the-kukas-villa">The Kukas Villa</a> to a majestic, multi-course candlelit Rajasthani thali in the courtyard of <a href="/properties/choti-haveli">Choti Haveli</a>, every meal is cooked fresh to your specifications. Our chefs can easily accommodate kids' preferences, dietary restrictions, and specific spice levels, ensuring every traveler is well-fed and pampered.</p>
+
+            <h2>3. Seamless Spaces to Bond and Reconnect</h2>
+            <p>Beyond the bedrooms, a private villa offers multiple lounge areas, open-air terraces, and expansive lawns. After a busy afternoon exploring the forts and bazaars of the Pink City, gather on the rooftop terrace for a spectacular sunset view of the Aravalli hills. End the evening with a custom bonfire setup under the stars, trading stories, playing music, and enjoying the clean, quiet air that the outskirts of Jaipur are celebrated for. For more insights on how these custom spaces compare, check out our comparison on <a href="/blogs/villa-vs-hotel-jaipur">villas vs hotels in Jaipur</a>.</p>
+
+            <h2>Plan Your Group Vacation with Stayra</h2>
+            <p>Whether you are planning a milestone birthday, a long-awaited family reunion, or a simple weekend escape with friends from Delhi, a private pool villa offers the perfect setting for unforgettable memories. To ensure maximum availability and access to our tailored local itineraries, we highly recommend booking your villa directly. Browse our full list of <a href="/properties">villas in Jaipur</a> or reach out to our concierge on WhatsApp to begin tailoring your bespoke getaway today.</p>
+        `,
+        date: "July 22, 2026",
+        author: "Stayra Team",
+        image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2000&auto=format&fit=crop",
+        tags: ["Pool Villa","Jaipur Group Stay","Family Vacation","Stayra Luxury"]
+    },
+    {
         id: "9",
         slug: "exclusive-jaipur-activities-luxury-villas",
         title: "The Ultimate Guide to Offbeat Luxury Experiences in Jaipur",
