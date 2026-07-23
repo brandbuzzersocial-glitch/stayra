@@ -104,44 +104,44 @@ fs.writeFileSync(blogFilePath, blogFileContent, 'utf8');
 // 3. Collateral & Blog Automation: Programmatically draft 1 high-intent blog post daily
 console.log("\n--- [Blog Automation] Drafting New High-Intent Blog Post ---");
 
-const newPostSlug = "exclusive-jaipur-activities-luxury-villas";
-const newPostTitle = "The Ultimate Guide to Offbeat Luxury Experiences in Jaipur";
-const newPostExcerpt = "Explore Jaipur's hidden heritage, private culinary tours, and exclusive activities to pair with your luxury villa stay at Stayra.";
+const newPostSlug = "luxury-wellness-yoga-retreats-jaipur";
+const newPostTitle = "Rejuvenate Your Soul: Luxury Wellness and Yoga Retreats in Jaipur";
+const newPostExcerpt = "Discover how to turn your private luxury villa stay in Jaipur into a bespoke wellness and yoga retreat with Stayra’s exclusive curated experiences.";
 
 const newBlogPostBlock = `    {
-        id: "9",
+        id: "10",
         slug: "${newPostSlug}",
         title: "${newPostTitle}",
         excerpt: "${newPostExcerpt}",
         content: \`
-            <p>Jaipur, with its rich tapestry of history and royal grandeur, is a destination that demands to be explored in absolute comfort. While staying in one of <a href="/properties">Stayra's premium properties</a> provides a luxurious sanctuary, the true magic of the Pink City lies in combining your stay with highly curated, exclusive local experiences. Whether you are seeking a private culinary tour, an offbeat adventure, or a hands-on heritage craft workshop, we have compiled the ultimate guide to pairing your villa stay with Jaipur's finest offerings.</p>
+            <p>Modern travel is no longer just about sightseeing; it is about restoring balance, finding quiet, and rejuvenating the mind and body. While Jaipur is celebrated for its historic palaces and bustling bazaars, it is also becoming a premier destination for luxury wellness escapes. At <a href="/">Stayra</a>, we believe that your stay should be a sanctuary. By choosing one of our private luxury villas in Jaipur, you can easily host a bespoke wellness or yoga retreat tailored entirely to your personal goals.</p>
 
-            <h2>1. Private Culinary Journeys and Candlelight Dining</h2>
-            <p>One of the greatest benefits of booking a private villa is the direct access to personalized dining. For guests residing at <a href="/properties/choti-haveli">Choti Haveli</a> on Ajmer Road, our dedicated on-call chefs can prepare a grand Rajasthani thali featuring authentic dishes like Dal Baati Churma and fiery Laal Maas. But for an exceptionally romantic evening, let our concierge set up a bespoke candlelight dinner under the stars in your private garden, accompanied by a traditional live folk music performance.</p>
-
-            <figure class="my-8">
-                <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=2000&auto=format&fit=crop" alt="Bespoke private dining experience in Jaipur" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
-                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A curated candlelight dining experience prepared fresh by in-villa chefs.</figcaption>
-            </figure>
-
-            <h2>2. Sunrise Hot Air Ballooning Over the Aravalli Hills</h2>
-            <p>For an offbeat perspective of Rajasthan's dramatic landscapes, take to the skies. A sunrise hot air balloon flight offers breathtaking aerial views of ancient forts, hidden palaces, and pristine water bodies. This experience is particularly convenient for guests staying at <a href="/properties/kankas-house">Kankas House</a> or <a href="/properties/the-kukas-villa">The Kukas Villa</a>, as both properties are nestled in the tranquil, scenic outskirts of Jaipur along the Delhi-Jaipur highway, close to the typical launch sites.</p>
+            <h2>1. Creating Your Private Sanctuary</h2>
+            <p>Unlike crowded resort spas where you share relaxation spaces with strangers, a Stayra villa is yours alone. For the ultimate peaceful retreat, <a href="/properties/kankas-house">Kankas House</a> on Delhi Road offers a magnificent, secluded setting surrounded by forested hills and country air. With its expansive, manicured lawn and peaceful outdoor sit-outs, it provides the perfect backdrop for sunrise hatha yoga sessions or sunset meditation under the clear sky.</p>
 
             <figure class="my-8">
-                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=2000&auto=format&fit=crop" alt="Sunrise views over Jaipur countryside" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
-                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A majestic sunrise view over the peaceful landscapes surrounding Jaipur.</figcaption>
+                <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2000&auto=format&fit=crop" alt="Sunrise yoga session in a private garden in Jaipur" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">A quiet morning yoga session under the open sky at a private Stayra villa.</figcaption>
             </figure>
 
-            <h2>3. Private Block-Printing Workshops with Master Artisans</h2>
-            <p>Rajasthan's hand-block printing is a world-renowned craft. Instead of buying mass-produced souvenirs, Stayra can organize an exclusive, private workshop with master craftsmen in Bagru or Sanganer. Here, you will learn the history of natural vegetable dyes, carve your own wooden block, and hand-stamp your own organic cotton fabric—a beautiful, personalized souvenir that supports <a href="/blogs/sustainable-tourism-rajasthan">sustainable and responsible tourism in Rajasthan</a>.</p>
+            <h2>2. Tailored Organic Dining and Detox Plans</h2>
+            <p>A true wellness retreat requires nourishing, clean cuisine. When you book a villa like <a href="/properties/choti-haveli">Choti Haveli</a>, our on-call chef can craft a specialized, organic menu focused on fresh Rajasthani superfoods, herbal teas, and detoxification juices. You can design a menu that avoids processed ingredients, utilizing fresh farm-to-table produce to leave you feeling light, energized, and deeply nourished.</p>
 
-            <h2>Enhance Your Jaipur Getaway with Stayra</h2>
-            <p>At Stayra, we believe that a true luxury vacation is defined by both the beauty of your private home and the seamlessness of your on-ground experiences. From private chauffeur transfers to curated city itineraries, our local team ensures that every detail of your stay is effortlessly managed. Browse our full portfolio of <a href="/properties">villas in Jaipur</a> and contact our concierge today on WhatsApp to begin planning your bespoke royal holiday.</p>
+            <h2>3. Wellness and Spa Treatments at Your Doorstep</h2>
+            <p>Avoid the hassle of booking appointments and traveling to commercial spas. Our concierge team can arrange for certified local therapists to visit your villa, offering traditional Ayurvedic massages, sound healing therapies, and personalized guided meditation. You can relax beside the private pool or within the peaceful indoor courtyards of your villa, letting the healing ambient sounds of nature wash over you.</p>
+
+            <figure class="my-8">
+                <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=2000&auto=format&fit=crop" alt="Relaxing wellness and meditation experience" class="rounded-xl w-full h-[400px] object-cover shadow-md" />
+                <figcaption class="text-center text-sm text-gray-500 mt-2 font-sans">Incorporate mindfulness and deep relaxation into your custom travel itinerary.</figcaption>
+            </figure>
+
+            <h2>Plan Your Wellness Getaway Today</h2>
+            <p>Whether you are planning a solo mindfulness journey, a romantic wellness escape, or a rejuvenating trip with close friends, our collection of private homes offers unmatched comfort and isolation. Combine your stay with offbeat outdoor adventures like sunrise hot air ballooning (as discussed in our <a href="/blogs/exclusive-jaipur-activities-luxury-villas">guide to offbeat activities</a>) or simple stargazing beside a bonfire. Browse our premier <a href="/properties">luxury properties in Jaipur</a> and contact the Stayra Team on WhatsApp to start designing your custom wellness retreat.</p>
         \`,
         date: "${currentDateStr}",
         author: "Stayra Team",
-        image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?q=80&w=2000&auto=format&fit=crop",
-        tags: ["Jaipur Luxury", "Offbeat Travel", "Stayra Villas", "Rajasthan Heritage"]
+        image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=2000&auto=format&fit=crop",
+        tags: ["Jaipur Wellness", "Yoga Retreat", "Stayra Villas", "Luxury Travel"]
     },`;
 
 let newBlogAdded = false;
